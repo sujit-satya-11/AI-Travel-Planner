@@ -1,8 +1,14 @@
 
+
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/AI-Travel-Planner/'
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+  base: '/AI-Travel-Planner/',
 })
