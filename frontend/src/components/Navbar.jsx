@@ -6,14 +6,32 @@ import { useAuth } from '../state/auth/AuthProvider.jsx'
 import { Moon, Sun, Menu, X, Monitor } from 'lucide-react'
 import ProfilePopover from './auth/ProfilePopover.jsx'
 
-const navItems = [
+//const navItems = [
   //{ label: 'Home', href: '/#home' },
+  //{ label: 'Home', href: '/AI-Travel-Planner/#home' },
+  //{ label: 'About', href: '/#about' },
+  //{ label: 'How It Works', href: '/#how-it-works' },
+  //{ label: 'Share Your Trip', href: '/#share' },
+  //{ label: 'Contact', href: '/#contact' }
+//]
+
+
+
+
+
+const navItems = [
   { label: 'Home', href: '/AI-Travel-Planner/#home' },
-  { label: 'About', href: '/#about' },
-  { label: 'How It Works', href: '/#how-it-works' },
-  { label: 'Share Your Trip', href: '/#share' },
-  { label: 'Contact', href: '/#contact' }
+  { label: 'About', href: '/AI-Travel-Planner/#about' },
+  { label: 'How It Works', href: '/AI-Travel-Planner/#how-it-works' },
+  { label: 'Share Your Trip', href: '/AI-Travel-Planner/#share' },
+  { label: 'Contact', href: '/AI-Travel-Planner/#contact' }
 ]
+
+
+
+
+
+
 
 export default function Navbar({ isHome }) {
   const { mode, setMode } = useTheme()
