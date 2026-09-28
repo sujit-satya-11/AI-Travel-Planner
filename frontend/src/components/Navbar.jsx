@@ -7,7 +7,8 @@ import { Moon, Sun, Menu, X, Monitor } from 'lucide-react'
 import ProfilePopover from './auth/ProfilePopover.jsx'
 
 const navItems = [
-  { label: 'Home', href: '/#home' },
+  //{ label: 'Home', href: '/#home' },
+  { label: 'Home', href: '/AI-Travel-Planner/#home' },
   { label: 'About', href: '/#about' },
   { label: 'How It Works', href: '/#how-it-works' },
   { label: 'Share Your Trip', href: '/#share' },

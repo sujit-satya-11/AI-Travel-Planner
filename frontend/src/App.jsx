@@ -13,7 +13,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <TripProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/AI-Travel-Planner">
             <AppShell>
               <Routes>
                 <Route path="/" element={<HomePage />} />
